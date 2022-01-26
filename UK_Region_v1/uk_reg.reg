@@ -1,4 +1,5 @@
 Windows Registry Editor Version 5.00
+
 [HKEY_USERS\TEMP\Control Panel\Input Method]
 "Show Status"="1"
 [HKEY_USERS\TEMP\Control Panel\Input Method\Hot Keys]
@@ -88,8 +89,10 @@ Windows Registry Editor Version 5.00
 "iTime"="1"
 "iTimePrefix"="0"
 "iTLZero"="1"
+
 [HKEY_USERS\TEMP\Control Panel\International\Geo]
 "Nation"="242"
+
 [HKEY_USERS\TEMP\Control Panel\International\User Profile]
 "Languages"=hex(7):65,00,6e,00,2d,00,47,00,42,00,00,00
 "ShowAutoCorrection"=dword:00000001
@@ -98,9 +101,11 @@ Windows Registry Editor Version 5.00
 "ShowShiftLock"=dword:00000001
 "WindowsOverride"="en-GB"
 "UserLocaleFromLanguageProfileOptOut"=dword:00000001
+
 [HKEY_USERS\TEMP\Control Panel\International\User Profile\en-GB]
 "CachedLanguageName"="@Winlangdb.dll,-1110"
 "0809:00000809"=dword:00000001
+
 [HKEY_USERS\TEMP\Control Panel\International\User Profile System Backup]
 "Languages"=hex(7):65,00,6e,00,2d,00,47,00,42,00,00,00
 "ShowAutoCorrection"=dword:00000001
@@ -109,12 +114,17 @@ Windows Registry Editor Version 5.00
 "ShowShiftLock"=dword:00000001
 "WindowsOverride"="en-GB"
 "UserLocaleFromLanguageProfileOptOut"=dword:00000001
+
 [HKEY_USERS\TEMP\Control Panel\International\User Profile System Backup\en-GB]
 "CachedLanguageName"="@Winlangdb.dll,-1110"
 "0809:00000809"=dword:00000001
+
 [HKEY_USERS\TEMP\Keyboard Layout]
+
 [HKEY_USERS\TEMP\Keyboard Layout\Preload]
 "1"="00000809"
+
 [HKEY_USERS\TEMP\Keyboard Layout\Substitutes]
+
 [HKEY_USERS\TEMP\Keyboard Layout\Toggle]
 "Hotkey"="1"

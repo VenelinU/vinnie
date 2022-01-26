@@ -1,0 +1,15 @@
+Set-WinSystemLocale en-GB
+Set-WinUserLanguageList -LanguageList en-GB -Force
+Set-Culture -CultureInfo en-GB
+Set-WinHomeLocation -GeoId 242
+Set-TimeZone "GMT Standard Time"
+
+0x0809
+KeyboardLayout=134809609
+(Get-Culture).KeyboardLayoutID
+
+Set-InputLocale:042d:0000040a
+Set-InputLocale:0809:00000809
+Set-InputLocale:en-GB
+
+control intl.cpl,, /f:"c:\path\newlocale.xml"
