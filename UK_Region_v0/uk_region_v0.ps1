@@ -66,15 +66,16 @@ $xmlStr = @"
 <gs:LocationPreferences> 
     <gs:GeoID Value="242"/> 
 </gs:LocationPreferences>
+
 <gs:MUILanguagePreferences>
 	<gs:MUILanguage Value="en-GB"/>
 	<gs:MUIFallback Value="en-US"/>
 </gs:MUILanguagePreferences>
 
 <gs:InputPreferences>
-    <!--en-GB-->
     <gs:InputLanguageID Action="add" ID="0809:00000809" Default="true"/> 
 </gs:InputPreferences>
+
 </gs:GlobalizationServices>
 "@
 
@@ -84,4 +85,8 @@ $xmlStr | Out-File $outFile -Force -Encoding ascii
 Write-Host "Copy language settings with control.exe"
 control.exe "intl.cpl,,/f:""$($outFile)"""
 
+Set-TimeZone "GMT Standard Time"
+
 Stop-Transcript | Out-Null
+Start-sleep -Seconds 30
+Restart-Computer

@@ -8,10 +8,10 @@ Set-WinSystemLocale -SystemLocale en-GB
 Set-WinUILanguageOverride -Language en-GB
 $UserLanguageList = New-WinUserLanguageList -Language en-GB
 Set-WinUserLanguageList -LanguageList $UserLanguageList -Force
-Set-InputLocale:en-GB
+#Set-InputLocale:en-GB
 Set-TimeZone "GMT Standard Time"
 
-Copy-UserInternationalSettingsToSystem -WelcomeScreen $True -NewUser $False
+#Copy-UserInternationalSettingsToSystem -WelcomeScreen $True -NewUser $False
 
 Start-sleep -Seconds 30
 Restart-Computer

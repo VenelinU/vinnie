@@ -14,3 +14,9 @@ Set-InputLocale:en-GB
 Set-WinUILanguageOverride -Language en-GB
 
 control intl.cpl,, /f:"c:\path\newlocale.xml"
+
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\Keyboard Layout\Preload]
+"1"="00000809"
+"2"="00000409"
