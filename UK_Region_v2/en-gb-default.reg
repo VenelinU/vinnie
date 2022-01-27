@@ -1,6 +1,6 @@
 Windows Registry Editor Version 5.00
 
-[HKEY_USERS\.DEFAULT\Control Panel\International]
+[HKEY_USERS\DEFAULT_USER\Control Panel\International]
 "Locale"="00000809"
 "LocaleName"="en-GB"
 "s1159"="AM"
@@ -43,43 +43,42 @@ Windows Registry Editor Version 5.00
 "iTimePrefix"="0"
 "iTLZero"="1"
 
-[HKEY_USERS\.DEFAULT\Control Panel\International\Geo]
+[HKEY_USERS\DEFAULT_USER\Control Panel\International\Geo]
 "Nation"="242"
 
-[HKEY_USERS\.DEFAULT\Control Panel\International\User Profile]
+[HKEY_USERS\DEFAULT_USER\Control Panel\International\User Profile]
 "Languages"=hex(7):65,00,6e,00,2d,00,47,00,42,00,00,00
 "ShowAutoCorrection"=dword:00000001
 "ShowTextPrediction"=dword:00000001
 "ShowCasing"=dword:00000001
 "ShowShiftLock"=dword:00000001
 
-[HKEY_USERS\.DEFAULT\Control Panel\International\User Profile\en-GB]
+[HKEY_USERS\DEFAULT_USER\Control Panel\International\User Profile\en-GB]
 "CachedLanguageName"="@Winlangdb.dll,-1110"
 "0809:00000809"=dword:00000001
 
-[HKEY_USERS\.DEFAULT\Control Panel\International\User Profile System Backup]
+[HKEY_USERS\DEFAULT_USER\Control Panel\International\User Profile System Backup]
 "Languages"=hex(7):65,00,6e,00,2d,00,47,00,42,00,00,00
 "ShowAutoCorrection"=dword:00000001
 "ShowTextPrediction"=dword:00000001
 "ShowCasing"=dword:00000001
 "ShowShiftLock"=dword:00000001
 
-[HKEY_USERS\.DEFAULT\Control Panel\International\User Profile System Backup\en-GB]
+[HKEY_USERS\DEFAULT_USER\Control Panel\International\User Profile System Backup\en-GB]
 "CachedLanguageName"="@Winlangdb.dll,-1110"
 "0809:00000809"=dword:00000001
 
-[HKEY_USERS\.DEFAULT\Keyboard Layout]
+[HKEY_USERS\DEFAULT_USER\Keyboard Layout]
 
-[HKEY_USERS\.DEFAULT\Keyboard Layout\Preload]
+[HKEY_USERS\DEFAULT_USER\Keyboard Layout\Preload]
 "1"="00000809"
-"2"="00000409"
 
-[HKEY_USERS\.DEFAULT\Keyboard Layout\Substitutes]
+[HKEY_USERS\DEFAULT_USER\Keyboard Layout\Substitutes]
 
-[HKEY_USERS\.DEFAULT\Keyboard Layout\Toggle]
+[HKEY_USERS\DEFAULT_USER\Keyboard Layout\Toggle]
 
-[HKEY_USERS\.DEFAULT\Control Panel\Desktop\MuiCached]
+[HKEY_USERS\DEFAULT_USER\Control Panel\Desktop\MuiCached]
 "MachinePreferredUILanguages"=hex(7):65,00,6e,00,2d,00,47,00,42,00,00,00,00,00
 
-[HKEY_USERS\.DEFAULT\Control Panel\Desktop]
+[HKEY_USERS\DEFAULT_USER\Control Panel\Desktop]
 "PreferredUILanguages"=hex(7):65,00,6e,00,2d,00,47,00,42,00,00,00

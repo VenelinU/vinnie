@@ -11,5 +11,6 @@ KeyboardLayout=134809609
 Set-InputLocale:042d:0000040a
 Set-InputLocale:0809:00000809
 Set-InputLocale:en-GB
+Set-WinUILanguageOverride -Language en-GB
 
 control intl.cpl,, /f:"c:\path\newlocale.xml"
